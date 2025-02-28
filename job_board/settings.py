@@ -33,7 +33,7 @@ ALLOWED_HOSTS = ["*"]
 
 CORS_TRUSTED_ORIGINS = [
     "https://find-job-v4mq.onrender.com",
-    "http://127.0.0.1:5500/",
+    "http://127.0.0.1:5500",
 ]
 
 
@@ -59,7 +59,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',
+    'corsheaders.middleware.CorsMiddleware', 
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -67,9 +67,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-
-    'django.middleware.common.CommonMiddleware',
 ]
+
 CORS_ALLOW_ALL_ORIGINS = True
 
 
