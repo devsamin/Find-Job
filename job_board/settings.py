@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-CORS_ALLOWED_ORIGINS = [
+CORS_TRUSTED_ORIGINS = [
     "https://find-job-v4mq.onrender.com",
     "http://127.0.0.1:5500/",
 ]
