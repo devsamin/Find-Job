@@ -34,6 +34,7 @@ ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = [
     "https://find-job-v4mq.onrender.com",
     "http://127.0.0.1:5500",
+    "http://127.0.0.1:8000",
 ]
 
 
